@@ -1,0 +1,122 @@
+./results/fedavg_2ds_size22000_B50_lr1e-05_E1.log
+2023-07-04T09:09:52.518812+0100:main:INFO:Initialized logger
+2023-07-04T09:09:53.677035+0100:main:INFO:Running on GPU
+2023-07-04T09:09:53.677035+0100:main:INFO:NVIDIA GeForce RTX 2060
+2023-07-04T09:09:53.692664+0100:main:INFO:Selected node type <class 'components.hospitals.normal_hospital.NormalHospital'> and server type <class 'components.servers.normal_server.NormalServer'>
+2023-07-04T09:09:53.692664+0100:main:DEBUG:Selected model type <class 'components.models.vgg11.VGG11'>
+2023-07-04T09:09:53.692664+0100:main:DEBUG:Number of classes 12
+2023-07-04T09:09:53.692664+0100:data_utlities:INFO:Downloading the datasets ['octmnist', 'bloodmnist'] and partitioning them for the server and for the hospitals
+2023-07-04T09:09:53.692664+0100:data_utlities:INFO:Downloading the datasets ['octmnist', 'bloodmnist'] and partitioning them for the server and for the hospitals
+2023-07-04T09:10:11.521802+0100:data_utlities:INFO:downloaded dataset octmnist
+2023-07-04T09:10:11.521802+0100:data_utlities:INFO:downloaded dataset octmnist
+2023-07-04T09:10:11.631208+0100:data_utlities:INFO:Partitioned octmnist for server and hospitals
+2023-07-04T09:10:11.631208+0100:data_utlities:INFO:Partitioned octmnist for server and hospitals
+2023-07-04T09:10:14.741760+0100:data_utlities:INFO:downloaded dataset bloodmnist
+2023-07-04T09:10:14.741760+0100:data_utlities:INFO:downloaded dataset bloodmnist
+2023-07-04T09:10:14.835315+0100:data_utlities:INFO:Partitioned bloodmnist for server and hospitals
+2023-07-04T09:10:14.835315+0100:data_utlities:INFO:Partitioned bloodmnist for server and hospitals
+2023-07-04T09:10:14.835315+0100:main:DEBUG:Completed data downloading/ loading and partitioning
+2023-07-04T09:10:14.835315+0100:main:DEBUG:Completed data downloading/ loading and partitioning
+2023-07-04T09:10:14.835315+0100:main:DEBUG:Completed dividing indexes to train and test for each hospital
+2023-07-04T09:10:14.835315+0100:main:DEBUG:Completed dividing indexes to train and test for each hospital
+2023-07-04T09:10:14.835315+0100:main:DEBUG:Completed dividing indexes to train and test for the server
+2023-07-04T09:10:14.835315+0100:main:DEBUG:Completed dividing indexes to train and test for the server
+2023-07-04T09:10:14.850940+0100:main:INFO:Initialization of datasets and partitioning successful
+2023-07-04T09:10:14.850940+0100:main:INFO:Initialization of datasets and partitioning successful
+2023-07-04T09:10:14.850940+0100:main:INFO:Initializing the server class
+2023-07-04T09:10:14.850940+0100:main:INFO:Initializing the server class
+2023-07-04T09:10:14.913462+0100:normal_server:INFO:Instanaciating hospitals
+2023-07-04T09:10:14.913462+0100:normal_server:INFO:Instanaciating hospitals
+2023-07-04T09:10:14.913462+0100:normal_server:INFO:Instanaciating hospitals
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.101319+0100:normal_server:INFO:Created 20 hospital classes, IDS from 0 to 19
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.116951+0100:normal_server:INFO:Finished initializing server attributes
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:normal_server:INFO:Finished creating the mixed set for the server
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
+2023-07-04T09:10:16.663992+0100:main:INFO:Starting training process
